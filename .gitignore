@@ -19,3 +19,6 @@ doc/
 
 # Jekyll artifacts
 _site/
+serve/
+.vagrant/
+Gemfile.lock
