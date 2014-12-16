@@ -7,3 +7,6 @@ cd /vagrant
 
 bundle install
 bundle exec jekyll serve --detach
+
+# install an editor
+sudo apt-get install emacs24-nox -y
