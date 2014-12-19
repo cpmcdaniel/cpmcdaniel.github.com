@@ -2,8 +2,26 @@
 layout: home
 title: Craig McDaniel's Blog
 ---
+
+<section id="intro">
+	<p>
+		This site is dedicated to the thoughts and opinions of yours truly, Craig McDaniel - a former polyglot 
+		software engineer on a long journey to find the best way to write software systems. Throughout my 
+		career, I have often found myself asking questions like, "Is this the best we [as an industry] can
+		do? Is this the best way to write good quality software?"
+	</p>
+	
+	<p>
+		My path toward enlightenment has led me to functional programming - specifically Clojure. In these pages
+		I will attempt to explain the rationale behind my love affair with this beautiful and powerful language,
+		and the ecosystem of projects and libraries surrounding it. Whether you agree or disagree, I hope my 
+		musings will inspire you to think about things in a different light, and perhaps question things you
+		simply assumed were "best practice" facts about developing good software.
+	</p>
+</section>
+
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts limit:3 %}
     <li>
       <a href="{{ post.url }}">{{ post.date | date_to_string }} - {{ post.title }}</a>
     </li>
