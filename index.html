@@ -5,7 +5,7 @@
     
     <title>Deep Thoughts</title>
     
-    <meta name="description" content="A blog about software development, functional programming, Clojure, Python, and Data Science.">
+    <meta name="description" content="Helping companies build and modernize software through engineering consulting and fractional CTO leadership.">
     <meta name="keywords" content="">
     
     <link rel="canonical" href="https://cpmcdaniel.github.io/">
@@ -19,9 +19,68 @@
 </head>
 <body>
 
+<header class="site-header">
+    <svg class="site-header-art" viewBox="0 0 1600 320" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+        <defs>
+            <linearGradient id="hdr-bg" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#0a2250"/>
+                <stop offset="0.55" stop-color="#143f85"/>
+                <stop offset="1" stop-color="#1c5fb0"/>
+            </linearGradient>
+            <radialGradient id="hdr-glow" cx="0.5" cy="0.5" r="0.5">
+                <stop offset="0" stop-color="#5fb4ff" stop-opacity="0.35"/>
+                <stop offset="1" stop-color="#5fb4ff" stop-opacity="0"/>
+            </radialGradient>
+            <pattern id="hdr-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                <path d="M40 0 H0 V40" fill="none" stroke="#7fb2ea" stroke-opacity="0.12" stroke-width="1"/>
+            </pattern>
+        </defs>
+        <rect width="1600" height="320" fill="url(#hdr-bg)"/>
+        <rect width="1600" height="320" fill="url(#hdr-grid)"/>
+        <ellipse cx="800" cy="160" rx="620" ry="170" fill="url(#hdr-glow)"/>
+        <g fill="none" stroke="#9cc8f5" stroke-opacity="0.35" stroke-width="1.2">
+            <path d="M90 60 L210 130 L330 40 L460 110 L380 250 L250 300 L60 230 L150 170 L210 130"/>
+            <path d="M150 170 L460 110 M330 40 L700 30 M380 250 L640 285"/>
+            <path d="M1510 70 L1400 150 L1260 40 L1130 120 L1200 265 L1350 300 L1550 230 L1480 170 L1400 150"/>
+            <path d="M1130 120 L1480 170 M1260 40 L1510 70 M1200 265 L860 290 M980 40 L1260 40"/>
+        </g>
+        <g fill="#cfe6ff">
+            <circle cx="90" cy="60" r="4"/>
+            <circle cx="210" cy="130" r="3"/>
+            <circle cx="330" cy="40" r="3"/>
+            <circle cx="460" cy="110" r="2.5"/>
+            <circle cx="380" cy="250" r="4"/>
+            <circle cx="250" cy="300" r="3"/>
+            <circle cx="60" cy="230" r="5"/>
+            <circle cx="150" cy="170" r="2"/>
+            <circle cx="1510" cy="70" r="4"/>
+            <circle cx="1400" cy="150" r="3"/>
+            <circle cx="1260" cy="40" r="3"/>
+            <circle cx="1130" cy="120" r="2.5"/>
+            <circle cx="1200" cy="265" r="4"/>
+            <circle cx="1350" cy="300" r="3"/>
+            <circle cx="1550" cy="230" r="5"/>
+            <circle cx="1480" cy="170" r="2"/>
+            <circle cx="700" cy="30" r="2"/>
+            <circle cx="980" cy="40" r="2.5"/>
+            <circle cx="640" cy="285" r="2"/>
+            <circle cx="860" cy="290" r="2"/>
+        </g>
+        <g fill="#5fb4ff" fill-opacity="0.25">
+            <circle cx="60" cy="230" r="14"/>
+            <circle cx="1550" cy="230" r="14"/>
+            <circle cx="1260" cy="40" r="10"/>
+            <circle cx="330" cy="40" r="10"/>
+        </g>
+    </svg>
+    <div class="container">
+        <a class="site-title" href="/">Deep Thoughts</a>
+        <p class="site-tagline">Tech &bull; Data &bull; AI Insights</p>
+    </div>
+</header>
 
 <nav class="navbar navbar-default">
-    <div class="container">
+    <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
@@ -29,10 +88,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">Deep Thoughts</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-center">
                 <li  class="active" ><a href="/">Home</a></li>
                 <li
                 ><a href="/archives/">Archives</a></li>
@@ -51,12 +109,16 @@
                         <li><a href="https://www.linkedin.com/in/craigpmcdaniel/">LinkedIn</a></li>
                         <li><a href="https://github.com/cpmcdaniel">GitHub</a></li>
                         
+                        <li><a href="/pages/consulting-bio/">Consulting Bio</a></li>
+                        
+                        <li><a href="/pages/for-clients/">For Clients</a></li>
+                        
 
                         
                         <li class="divider"></li>
                         <li class="dropdown-header">Recent Posts</li>
                         
-                        <li><a href="/posts/2020-03-29-data-models-vs-data-abstractions/">Data Models vs Data Abstractions</a></li>
+                        <li><a href="/posts/2026-10-20-data-models-vs-data-abstractions/">Data Models vs Data Abstractions</a></li>
                         
                         
 
@@ -79,6 +141,7 @@
 </nav>
 
 
+
 <div class="container">
 
 
@@ -89,19 +152,20 @@
 <div id="post">
     <div class="post-header">
     <div id="post-meta" class="row">
-        <div class="col-lg-6">March 29, 2020</div>
+        <div class="col-lg-6">October 20, 2026</div>
         
     </div>
     <h2>Data Models vs Data Abstractions</h2>
 </div>
-<div>
+<div class="post-body">
     
-    <p>The landscape of programming is changing. Are your tools ready? As the days of
+    <h1 id="2020---2026-preface">2020 -&gt; 2026 Preface</h1><p>When I originally wrote this piece in early 2020, the world was on the cusp of a massive shift — not just socially, but technologically. Since then, the software industry has sprinted forward: cloud‑native architectures have become the default, data volumes have exploded, and AI systems now depend on pipelines that make traditional object‑heavy models feel like relics from another era.</p><p>What hasn’t changed is the core tension this article highlights. If anything, the last six years have made it even clearer that rigid, proprietary data models slow teams down, complicate integrations, and create unnecessary friction in systems that need to be flexible, observable, and interoperable.</p><p>So I’m resurfacing this piece not as a time capsule, but as a reminder: the tools and habits we choose around data shape everything else. And in 2026, with AI‑driven systems leaning heavily on generic, portable, and transformation‑friendly data structures, the argument for freeing your data is stronger than ever.</p><h1 id="the-original-essay-march-29-2020">The Original Essay (March 29, 2020)</h1><p>The programming landscape has shifted dramatically. The question is whether
+your tools — and your habits — have kept up. As the days of
 vertically-scalable PC systems has come to an end (it's been awhile, but some
 still haven't noticed), the world of multicore, cloud computing, and mobile
-has taken over. Smart phones and social media have created an explosion of
-data volume, much of which is unstructured and in an ever-increasing variety
-of shapes and formats.</p><h1 id="its-all-about-the-data">It's all about the data...</h1><blockquote><p>It is better to have 100 functions operate on one data structure than 10
+has taken over. Smartphones and social platforms have triggered an explosion
+of data — much of it unstructured, fast‑moving, and arriving in formats that
+don’t fit neatly into traditional object models.</p><h1 id="its-all-about-the-data">It's all about the data...</h1><blockquote><p>It is better to have 100 functions operate on one data structure than 10
 functions on 10 data structures. <br />
 -- Alan Perlis</p></blockquote><p>This quote by Alan Perlis is demonstrated well in the LISP language and its
 variants (including <a href="http://www.clojure.org/">Clojure</a>). These languages
@@ -119,8 +183,7 @@ principle to our data models?</p><h1 id="your-classes-are-proprietary">Your Clas
 hostile to data. Its focus on behavior wraps up data in access methods, and
 wraps up collections of data even more tightly. In the mathematical world,
 <em>data just is</em>, it has no behavior, yet the rigors of C++ or Java require
-developers to worry about how it is accessed. <br />
--- Ed Dumbill, <a href="http://radar.oreilly.com/2013/01/the-future-of-programming.html">The future of programming</a></p></blockquote><p>Idiomatic Java/C# development would have our data enshrined in classes which
+developers to worry about how it is accessed.</p><p>-- Ed Dumbill, <em>The future of programming</em></p></blockquote><p>Idiomatic Java/C# development would have our data enshrined in classes which
 model things in the real world. So we take our data and trap it (or
 <em>encapsulate</em> it, if you prefer) inside its own proprietary micro-API. We assume
 this is a good thing for several compelling reasons: compile-time static
@@ -158,20 +221,15 @@ write code like this N times. Now, lets add a new wrinkle: we also want to make
 Person and Product records available as JSON for a web front-end. Again, the
 amount of code and repetition multiplies, and is it really all for the sake of
 developer convenience and type safety?</p><p>I have been on so many Java projects like this that I swear it is considered
-idiomatic "best practice" by the community. We love our tasty beans. I would
+idiomatic "best practice" by the community. We do love our JavaBeans —
+sometimes a little too much. I would
 estimate that north of 70% of the code in these applications is nothing but
 <a href="http://www.martinfowler.com/bliki/AnemicDomainModel.html">anemic domain model</a>
 and transformation code to-and-from generic data formats like JDBC ResultSet
 and CSV/JSON. Why not just write one utility that exports any ResultSet as CSV
 or JSON and be done with it? Obviously, not every use case is this vanilla, but
 I hope you can see the explosive potential of proprietary data models.</p><h1 id="generic-data-in-javac">Generic Data in Java/C#</h1><blockquote><p>I think the real root of the problem is that the OO community focuses so much
-on abstracting <em>behavior</em>, they forget to abstract their <em>data</em>.</p></blockquote><p>Of course, there is nothing stopping you from doing this. Or is there?</p><h1 id="alternatives">Alternatives</h1><h2 id="1-i-know-just-use-maps-and-lists-instead-of-custom-models">1. I know, just use Maps and Lists instead of custom models!!!</h2><p>Maybe, but then you lose your beloved code completion and self-documenting
-structure, not to mention that working with Maps and Lists in Java is
-relatively painful and verbose (it is definitely hostile toward generic data).</p><h2 id="2-use-reflection">2. Use reflection.</h2><p>Ummm, gross. Hardly readable. While used effectively in APIs and frameworks, you
-rarely see application developers processing objects with reflection - probably
-for good reason!</p><p>Both of these approaches suffer from a common and critical flaw - the industry
-doesn't do OOP this way. It's not idiomatic. Write an entire application this way
-and whoever takes over the project will definitely want to rewrite it.</p><h1 id="recommendation">Recommendation</h1><p>Java and C# simply aren't the right tools for today's landscape of data. To effectively
+on abstracting <em>behavior</em>, they forget to abstract their <em>data</em>.</p></blockquote><p>Of course, there is nothing stopping you from doing this. Or is there?</p><h1 id="alternatives">Alternatives</h1><h2 id="1-just-use-maps-and-lists-instead-of-custom-models">1. Just use Maps and Lists instead of custom models!!!</h2><p>It’s a tempting idea, but you immediately sacrifice code completion, structure, and readability. And in Java, working with raw Maps and Lists is still surprisingly verbose — the language doesn’t exactly roll out the red carpet for generic data.</p><h2 id="2-use-reflection">2. Use reflection.</h2><p>Reflection is powerful, but hardly something you’d call elegant or readable. Framework authors use it effectively, but most application developers avoid it for good reason.</p><p>Both approaches share a fatal flaw: they’re not idiomatic in mainstream OOP practice. Build an entire application this way and the next developer will almost certainly reach for the big, red rewrite button.</p><h1 id="recommendation">Recommendation</h1><p>Java and C# simply aren't the right tools for today's landscape of data. To effectively
 wrangle this, you need tools that embrace generic data structures. If you feel like you
 can't breathe without static typing, take a look at Scala. You still need to watch out
 for the explosion of transform code around any custom data models you create, but at

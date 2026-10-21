@@ -6,19 +6,9 @@
     <title>Deep Thoughts: About</title>
     
 
-<meta name="description" content="About Deep ThoughtsThere are two things I wish to accomplish with this site. First, I want to share my experiences in software engineering
-with you, so that you may learn from the hard-earned wisdom I have received over the years - wisdom gained from both
-success and failure. I hope I can do so in a way that is entertaining, yet informative.
-The second purpose is to give interested parties greater depth and insight into my professional experience than can be
-found on a résumé or professional profile. I hope to answer most of the common general interview questions so that we
-may have deeper and more meaningful conversation.">
+<meta name="description" content="Meet Craig McDaniel: software engineer, consultant, and fractional CTO focused on data, distributed systems, and AI.">
 
-<meta property="og:description" content="About Deep ThoughtsThere are two things I wish to accomplish with this site. First, I want to share my experiences in software engineering
-with you, so that you may learn from the hard-earned wisdom I have received over the years - wisdom gained from both
-success and failure. I hope I can do so in a way that is entertaining, yet informative.
-The second purpose is to give interested parties greater depth and insight into my professional experience than can be
-found on a résumé or professional profile. I hope to answer most of the common general interview questions so that we
-may have deeper and more meaningful conversation." />
+<meta property="og:description" content="Meet Craig McDaniel: software engineer, consultant, and fractional CTO focused on data, distributed systems, and AI." />
 
 
 <meta property="og:url" content="https://cpmcdaniel.github.io/pages/about/" />
@@ -27,12 +17,7 @@ may have deeper and more meaningful conversation." />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:url" content="https://cpmcdaniel.github.io/pages/about/" />
 <meta name="twitter:title" content="About" />
-<meta name="twitter:description" content="About Deep ThoughtsThere are two things I wish to accomplish with this site. First, I want to share my experiences in software engineering
-with you, so that you may learn from the hard-earned wisdom I have received over the years - wisdom gained from both
-success and failure. I hope I can do so in a way that is entertaining, yet informative.
-The second purpose is to give interested parties greater depth and insight into my professional experience than can be
-found on a résumé or professional profile. I hope to answer most of the common general interview questions so that we
-may have deeper and more meaningful conversation." />
+<meta name="twitter:description" content="Meet Craig McDaniel: software engineer, consultant, and fractional CTO focused on data, distributed systems, and AI." />
 
 <meta name="twitter:creator" content="" />
 
@@ -47,9 +32,68 @@ may have deeper and more meaningful conversation." />
 </head>
 <body>
 
+<header class="site-header">
+    <svg class="site-header-art" viewBox="0 0 1600 320" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+        <defs>
+            <linearGradient id="hdr-bg" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#0a2250"/>
+                <stop offset="0.55" stop-color="#143f85"/>
+                <stop offset="1" stop-color="#1c5fb0"/>
+            </linearGradient>
+            <radialGradient id="hdr-glow" cx="0.5" cy="0.5" r="0.5">
+                <stop offset="0" stop-color="#5fb4ff" stop-opacity="0.35"/>
+                <stop offset="1" stop-color="#5fb4ff" stop-opacity="0"/>
+            </radialGradient>
+            <pattern id="hdr-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                <path d="M40 0 H0 V40" fill="none" stroke="#7fb2ea" stroke-opacity="0.12" stroke-width="1"/>
+            </pattern>
+        </defs>
+        <rect width="1600" height="320" fill="url(#hdr-bg)"/>
+        <rect width="1600" height="320" fill="url(#hdr-grid)"/>
+        <ellipse cx="800" cy="160" rx="620" ry="170" fill="url(#hdr-glow)"/>
+        <g fill="none" stroke="#9cc8f5" stroke-opacity="0.35" stroke-width="1.2">
+            <path d="M90 60 L210 130 L330 40 L460 110 L380 250 L250 300 L60 230 L150 170 L210 130"/>
+            <path d="M150 170 L460 110 M330 40 L700 30 M380 250 L640 285"/>
+            <path d="M1510 70 L1400 150 L1260 40 L1130 120 L1200 265 L1350 300 L1550 230 L1480 170 L1400 150"/>
+            <path d="M1130 120 L1480 170 M1260 40 L1510 70 M1200 265 L860 290 M980 40 L1260 40"/>
+        </g>
+        <g fill="#cfe6ff">
+            <circle cx="90" cy="60" r="4"/>
+            <circle cx="210" cy="130" r="3"/>
+            <circle cx="330" cy="40" r="3"/>
+            <circle cx="460" cy="110" r="2.5"/>
+            <circle cx="380" cy="250" r="4"/>
+            <circle cx="250" cy="300" r="3"/>
+            <circle cx="60" cy="230" r="5"/>
+            <circle cx="150" cy="170" r="2"/>
+            <circle cx="1510" cy="70" r="4"/>
+            <circle cx="1400" cy="150" r="3"/>
+            <circle cx="1260" cy="40" r="3"/>
+            <circle cx="1130" cy="120" r="2.5"/>
+            <circle cx="1200" cy="265" r="4"/>
+            <circle cx="1350" cy="300" r="3"/>
+            <circle cx="1550" cy="230" r="5"/>
+            <circle cx="1480" cy="170" r="2"/>
+            <circle cx="700" cy="30" r="2"/>
+            <circle cx="980" cy="40" r="2.5"/>
+            <circle cx="640" cy="285" r="2"/>
+            <circle cx="860" cy="290" r="2"/>
+        </g>
+        <g fill="#5fb4ff" fill-opacity="0.25">
+            <circle cx="60" cy="230" r="14"/>
+            <circle cx="1550" cy="230" r="14"/>
+            <circle cx="1260" cy="40" r="10"/>
+            <circle cx="330" cy="40" r="10"/>
+        </g>
+    </svg>
+    <div class="container">
+        <a class="site-title" href="/">Deep Thoughts</a>
+        <p class="site-tagline">Tech &bull; Data &bull; AI Insights</p>
+    </div>
+</header>
 
 <nav class="navbar navbar-default">
-    <div class="container">
+    <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
@@ -57,10 +101,9 @@ may have deeper and more meaningful conversation." />
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">Deep Thoughts</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-center">
                 <li ><a href="/">Home</a></li>
                 <li
                 ><a href="/archives/">Archives</a></li>
@@ -79,12 +122,16 @@ may have deeper and more meaningful conversation." />
                         <li><a href="https://www.linkedin.com/in/craigpmcdaniel/">LinkedIn</a></li>
                         <li><a href="https://github.com/cpmcdaniel">GitHub</a></li>
                         
+                        <li><a href="/pages/consulting-bio/">Consulting Bio</a></li>
+                        
+                        <li><a href="/pages/for-clients/">For Clients</a></li>
+                        
 
                         
                         <li class="divider"></li>
                         <li class="dropdown-header">Recent Posts</li>
                         
-                        <li><a href="/posts/2020-03-29-data-models-vs-data-abstractions/">Data Models vs Data Abstractions</a></li>
+                        <li><a href="/posts/2026-10-20-data-models-vs-data-abstractions/">Data Models vs Data Abstractions</a></li>
                         
                         
 
@@ -107,6 +154,7 @@ may have deeper and more meaningful conversation." />
 </nav>
 
 
+
 <div class="container">
 
 
@@ -119,36 +167,14 @@ may have deeper and more meaningful conversation." />
         <h2>About</h2>
     </div>
     
-    <h1 id="about-deep-thoughts">About Deep Thoughts</h1><p>There are two things I wish to accomplish with this site. First, I want to share my experiences in software engineering
-with you, so that you may learn from the hard-earned wisdom I have received over the years - wisdom gained from both
-success and failure. I hope I can do so in a way that is entertaining, yet informative.
-The second purpose is to give interested parties greater depth and insight into my professional experience than can be
-found on a résumé or professional profile. I hope to answer most of the common general interview questions so that we
-may have deeper and more meaningful conversation.</p><h1 id="about-me">About Me</h1><p>My name is Craig McDaniel. I am a <a href="https://www.thefreedictionary.com/polyglot">polyglot</a> software engineer with over
-20 years of experience and a deep passion for data and functional programming. This section is primarily for employers,
-recruiters, potential business
-partners (always keep your options open!), and generally anyone who just wants to get to know more about my professional
-background. You can also check out my <a href="https://www.linkedin.com/in/craigpmcdaniel/">LinkedIn profile</a> and my current
-<a href="/files/Craig McDaniel Resume.pdf">résumé</a>.</p><h2 id="my-story">My Story</h2><p>I originally wanted to be a Civil Engineer, but a combination of
-circumstances convinced me to pursue software development: I had a hard time finding a structural engineering co-op
-while at the same time taking a Programming for Engineers course. I was finishing my programming assignments before the rest
-of the class and would then go around the lab and help my fellow students. I was not only good at this - I really
-enjoyed it. I made the switch and never looked back.</p><h3 id="the-early-years">The Early Years</h3><p>From 1998 to 2001 I worked for a web development shop called Internet Tool &amp; Die. We had a wide variety of clients and
-were very small, so as a developer I had to learn a lot of various technologies and apply them without a lot of
-mentoring. I worked on projects in PHP/MySQL, Python (<a href="https://www.zope.org">Zope</a> - very novel at the time), and a very
-early release of Java Server Pages (JSP 0.96). I also ran Debian Linux on my workstation - a relatively brave thing to
-do in 1998. This was back when I would refresh <a href="https://slashdot.org">Slashdot</a> every 15 minutes to get the latest tech
-news. Everything was new and exciting. I learned so much in a short period of time.</p><p>The dotcom bubble burst while I was a senior at <a href="https://www.louisville.edu">UofL</a> (roughly March of 2000). It took awhile to hit our little webdev shop,
-but eventually it did. One day, the boss gathered everyone for a company meeting. He never did that before, so we all
-knew what was up. All I remember him saying was, "I don't know if we have enough money to make next payroll." My wedding
-was that weekend, so it looked like I was about to start my marriage unemployed.</p><p>Luckily, the same guy that recruited me to Internet Tool &amp; Die had started a new company and they were hiring. I went in
-for an interview on Friday - the day before my wedding. They made me an offer on the spot. The next day I married the
-love of my life and then we flew to Cancun, Mexico for our honeymoon. While we were sipping piña coladas by the pool,
-two planes hit the World Trade Center.</p>
+    <p>This site has two goals.</p><p>First, I want to share the lessons I’ve learned over more than two decades in software engineering — lessons earned through both success and failure. My aim is to present them in a way that’s engaging, practical, and occasionally entertaining.</p><p>Second, this space gives prospective clients, collaborators, and employers a deeper look into my professional background than a résumé or LinkedIn profile can provide. Think of it as the extended‑cut version: more context, more depth, and answers to the kinds of questions that lead to better conversations.</p><h1 id="about-me">About Me</h1><p>My name is Craig McDaniel. I’m a <a href="https://www.thefreedictionary.com/polyglot">polyglot</a> software engineer with over 25 years of experience and a particular passion for data, distributed systems, and functional programming. This section is for anyone who wants a clearer picture of my professional journey — employers, recruiters, potential business partners, or simply curious readers.</p><p>You can also find me on <a href="https://www.linkedin.com/in/craigpmcdaniel/">LinkedIn</a> or view my current
+<a href="/files/Craig McDaniel Resume.pdf">résumé</a>.</p><h2 id="my-story">My Story</h2><p>I originally planned to become a civil engineer, but a few well‑timed events nudged me toward software. While struggling to find a structural engineering co‑op, I took a Programming for Engineers course — and something clicked. I finished my assignments early, helped classmates, and realized I genuinely enjoyed the work. The switch felt natural, and I never looked back.</p><h3 id="the-early-years">The Early Years</h3><p>From 1998 to 2001, I worked at a small web development shop called Internet Tool &amp; Die. With a tiny team and a wide range of clients, I had to learn fast and adapt constantly. I built projects in PHP/MySQL, Python (using Zope — cutting‑edge at the time), and an early release of Java Server Pages. I even ran Debian Linux on my workstation, which felt adventurous in 1998.</p><p>This was the era of refreshing Slashdot every 15 minutes to catch the latest tech news. Everything was new, exciting, and moving quickly. I learned more in those few years than I could have imagined.</p><p>The dot‑com bubble burst while I was a senior at UofL. It took a while to reach our little shop, but eventually it did. One day the boss called an all‑hands meeting — something he never did. We all knew what was coming. He told us, “I don’t know if we have enough money to make next payroll.” My wedding was that weekend, and it looked like I was about to start married life unemployed.</p><p>Fortunately, the person who originally recruited me had started a new company and was hiring. I interviewed on Friday — the day before my wedding — and received an offer on the spot. The next day I married the love of my life, and we flew to Cancun for our honeymoon. While we were sitting by the pool sipping piña coladas, two planes hit the World Trade Center.</p><h3 id="growing-up-in-enterprise-software">Growing Up in Enterprise Software</h3><p>My next roles introduced me to the realities of enterprise systems — the kind that don’t fit neatly into tutorials or conference talks. I worked in environments where systems had long histories, multiple owners, and enough complexity to keep any engineer humble. I learned how to navigate production outages, cross‑team dependencies, and the delicate art of improving a system without breaking the parts people depend on.</p><p>These years spanned industries like healthcare, compliance, and financial services, and they taught me how large organizations think, how decisions get made, and how to build software that survives contact with the real world.</p><h3 id="the-data-years">The Data Years</h3><p>As systems grew, so did the data. I found myself drawn to problems involving scale, structure, and flow — how data moves, how it transforms, and how it shapes everything around it. This is where my interest in functional programming deepened. I discovered languages and tools that treated data as a first‑class citizen rather than something to be hidden behind layers of objects.</p><p>I spent years working on high‑volume data systems: analytics platforms processing tens of millions of events per month, risk systems handling billions of measures per day, and distributed databases powering mission‑critical applications. These experiences shaped my engineering philosophy: simple data structures, predictable transformations, and systems that are easy to reason about.</p><h3 id="becoming-a-technical-leader">Becoming a Technical Leader</h3><p>Over time, I moved from individual contributor to technical leader. I began mentoring engineers, guiding architectural decisions, and helping teams navigate the tradeoffs that define real‑world engineering. Leadership taught me that the hardest problems aren’t technical - they’re human. Communication, alignment, and clarity matter just as much as code.</p><p>I led teams across multiple industries, coached developers, and helped organizations adopt better engineering practices. These experiences taught me how to build trust, advocate for better systems, and help teams grow into their potential.</p><h3 id="modernization-migration-and-the-cloud">Modernization, Migration, and the Cloud</h3><p>Eventually, I found myself repeatedly drawn into modernization efforts — the kind of projects where legacy systems meet new requirements and something has to give. I worked on cloud‑native architectures, containerization strategies, and DevOps improvements that helped teams move faster and more safely.</p><p>I’ve led modernization initiatives across several organizations: containerizing distributed databases, designing AWS‑native search platforms, improving deployment pipelines, and helping teams adopt more reliable and scalable patterns. These projects were challenging, messy, and incredibly rewarding. They taught me how to balance pragmatism with vision, how to move fast without breaking everything, and how to help organizations evolve without losing their footing.</p><h3 id="the-ai-shift">The AI Shift</h3><p>As AI systems became more prevalent, I noticed a familiar pattern: teams were trying to build modern capabilities on top of outdated foundations. AI isn’t magic — it’s data, pipelines, infrastructure, and iteration. The same principles I’d applied to distributed data systems and cloud‑native architectures were now essential for AI adoption.</p><p>I began helping teams modernize their stacks, improve their data flows, and build systems capable of supporting AI‑driven features. It felt like a natural extension of everything I’d been doing.</p><h3 id="why-i-started-consulting">Why I Started Consulting</h3><p>After years of building systems, leading teams, and modernizing platforms, I realized I enjoyed helping organizations solve hard problems more than anything else. I wanted to work directly with leaders, accelerate their progress, and bring clarity to complex situations.</p><p>Consulting lets me do exactly that. It gives me the freedom to focus on impact, the variety to stay sharp, and the opportunity to help teams avoid the mistakes I’ve seen repeated across the industry.</p><h3 id="what-im-doing-now">What I’m Doing Now</h3><p>Today, I work as an independent consultant specializing in AI tech stack modernization, distributed systems, developer experience, and fractional CTO engagements. My goal is simple: help teams build systems that are clear, scalable, and ready for what comes next.</p>
 
     <div id="prev-next">
         
         
+        
+        <a href="/pages/consulting-bio/">Consulting Bio &raquo;</a>
         
     </div>
 </div>
